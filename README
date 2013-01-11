@@ -1,0 +1,12 @@
+Generate rounds of tournaments, where nobody plays with the same partner more than once.
+
+Due to random selection, some rounds don't generate a full n/2 pairs, which  means they don't generate a full n/4 matches. 
+
+Use it:
+
+first argument is one person per line
+second argument is number of rounds
+python tourney.py /path/to/people 5
+
+end of the output is a list of rounds. Each round is pairs of people matched together.
+
